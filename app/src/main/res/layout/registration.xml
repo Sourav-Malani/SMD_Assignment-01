@@ -176,7 +176,9 @@
         android:text="Sign Up"
         android:textSize="20dp"
         android:textAllCaps="false"
-        app:cornerRadius="5dp" />
+        app:cornerRadius="5dp"
+        android:clickable="true"
+        android:onClick="registration_SignUp_Clicked"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
