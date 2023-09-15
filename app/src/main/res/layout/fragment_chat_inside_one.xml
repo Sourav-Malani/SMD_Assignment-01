@@ -44,7 +44,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
                 android:src="@drawable/outline_local_phone_24"
-                android:id="@+id/callIcon"/>
+                android:id="@+id/AudiocallIcon"
+                />
 
             <ImageView
                 android:layout_width="0dp"
