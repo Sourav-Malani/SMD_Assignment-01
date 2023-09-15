@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class ProfileFragment extends Fragment {
 
@@ -17,8 +18,8 @@ public class ProfileFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
         // Find the editProfileButton
-        Button editProfileButton = view.findViewById(R.id.editProfileButton);
-
+        //Button editProfileButton = view.findViewById(R.id.editProfileButton);
+        ImageView editProfileButton = view.findViewById(R.id.editProfileButton);
         // Set an OnClickListener for the editProfileButton
         editProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
