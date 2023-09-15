@@ -1,7 +1,9 @@
 package com.souravmalani.i190434;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -42,4 +44,8 @@ public class bottomnavigation extends AppCompatActivity {
     }
 
 
+    public void onPlusClicked(View view) {
+        Intent intent = new Intent(this, FragmentAddItem.class);
+        startActivity(intent);
+    }
 }

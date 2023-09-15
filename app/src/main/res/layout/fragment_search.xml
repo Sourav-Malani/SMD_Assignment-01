@@ -38,14 +38,16 @@
 
 
     <TextView
+        android:id="@+id/recentSearches"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/searchInput"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:text="Recent Searches"
-        android:textSize="20dp"
-        android:id="@+id/recentSearches"
-        />
+        android:textSize="20dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"

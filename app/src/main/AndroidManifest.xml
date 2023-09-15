@@ -37,6 +37,34 @@
             android:name=".EmailVerification"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".SearchFragment"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Searched"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".FragmentAddItem"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".UploadImage"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".UploadVideo"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".RentItem"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".EditProfile"
+            android:exported="true">
+        </activity>
     </application>
 
 

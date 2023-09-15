@@ -30,10 +30,12 @@
    <com.google.android.material.floatingactionbutton.FloatingActionButton
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:backgroundTint="@color/white"
+       android:backgroundTint="@color/orange"
        android:src="@drawable/baseline_add_24"
        app:layout_anchor="@id/bottomAppBar"
        app:maxImageSize="40dp"
        android:tint="@color/orange"
+       android:onClick="onPlusClicked"
+       android:clickable="true"
        ></com.google.android.material.floatingactionbutton.FloatingActionButton>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -64,6 +64,7 @@
 
                     <!-- CardView Content for Featured Item 1 -->
                     <LinearLayout
+                        android:id="@+id/item1_homepage"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
